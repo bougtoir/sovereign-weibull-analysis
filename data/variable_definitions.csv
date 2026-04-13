@@ -1,0 +1,14 @@
+variable,description,type,values
+polity,Name of sovereign polity or dynasty,categorical,See reign_durations.csv
+reign_index,Sequential index of reign within polity,integer,"1, 2, 3, ..."
+duration_years,Reign duration in years,continuous,>0
+region,Geographic region,categorical,"Europe, Asia, Middle East, Africa, Americas, Africa/Middle East"
+succession_type,Predominant succession mechanism,binary,"elective, hereditary"
+temporal_scope,Time period analysed for this polity,text,Start - End
+k,Weibull shape parameter,continuous,">0; k<1=decreasing hazard, k=1=constant, k>1=increasing"
+lambda,Weibull scale parameter (years),continuous,>0
+violent_successions,"Count of violent successions (assassination, deposition, coup)",integer,>=0
+total_successions,Total number of successions in polity,integer,>0
+violent_rate,Proportion of violent successions,continuous,0-1
+civil_wars,Count of major internal armed conflicts,integer,>=0
+era,Historical era classification,categorical,"Ancient, Medieval, Early Modern, Modern, Contemporary"
