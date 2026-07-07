@@ -371,12 +371,12 @@ def generate_v4():
     # =========================================================================
     # MODIFICATION 5: Replace p > 0.05 with actual p-values
     # =========================================================================
+    n_pass = sum(1 for v in KS_PVALUES.values() if v['ks_p'] > 0.05)
+    n_total = len(KS_PVALUES)
+
     if 'results_main_body1' in para_map:
         p = doc.paragraphs[para_map['results_main_body1']]
         old_text = p.text
-        # Count how many pass
-        n_pass = sum(1 for v in KS_PVALUES.values() if v['ks_p'] > 0.05)
-        n_total = len(KS_PVALUES)
         new_text = old_text.replace(
             'The Weibull distribution provided an adequate fit (KS test p > 0.05) for the majority of the 31 polities analysed.',
             f'The Weibull distribution provided an adequate fit (KS test p > 0.05) for {n_pass} of {n_total} polities analysed '

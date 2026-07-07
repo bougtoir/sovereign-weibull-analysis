@@ -306,6 +306,10 @@ def generate_ja_v4():
 
         disfavoured = [(n, r) for n, r in ms.items()
                        if r.get('w_daic') is not None and r['w_daic'] > 4]
+        disfavoured_text = '、'.join(
+            f'{n}（ΔAIC = {r["w_daic"]:.1f}、{r["best_aic"]}が優位）'
+            for n, r in sorted(disfavoured, key=lambda x: -x[1]['w_daic'])
+        )
 
         ms_results_text = (
             f'31政体すべてに対してワイブル、対数正規、ガンマ、指数分布の体系的モデル選択を実施した。'
@@ -313,8 +317,7 @@ def generate_ja_v4():
             f'対数正規が{ln_best}、ガンマが{g_best}、指数が{e_best}政体で最良であった。'
             f'重要なことに、ワイブルは{w_comp}/{n_total}政体でΔAIC < 2以内であり、'
             f'データセットの大多数で統計的に競争力のある当てはまりを提供することが確認された。'
-            f'ワイブルが明確に劣位となった政体（ΔAIC > 4）は日本天皇（ΔAIC = 17.4、対数正規が優位）'
-            f'およびアメリカ合衆国大統領（ΔAIC = 9.6、対数正規が優位）であった。'
+            f'ワイブルが明確に劣位となった政体（ΔAIC > 4）は{disfavoured_text}であった。'
             f'日本天皇については在位期間の重い右裾（50年を超える天皇が複数存在）が対数正規分布の'
             f'より重い裾でよく捕捉される。アメリカ合衆国大統領については任期制限による離散的構造が'
             f'対数正規でより自然に記述される。これらの結果はワイブル分布が文化横断的比較のための'
