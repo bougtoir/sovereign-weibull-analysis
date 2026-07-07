@@ -1,0 +1,376 @@
+{
+  "model_selection": {
+    "Aztec Empire": {
+      "best_aic": "Exponential",
+      "best_bic": "Exponential",
+      "n": 9,
+      "w_daic": 0.265565839526019,
+      "w_aic": 75.2564451523134,
+      "ln_aic": 76.97855186294575,
+      "g_aic": 75.42638786378735,
+      "e_aic": 74.99087931278738
+    },
+    "Byzantine Empire": {
+      "best_aic": "Log-normal",
+      "best_bic": "Log-normal",
+      "n": 71,
+      "w_daic": 4.6478037634126395,
+      "w_aic": 521.4192687017913,
+      "ln_aic": 516.7714649383787,
+      "g_aic": 520.5617119118988,
+      "e_aic": 520.7321871657798
+    },
+    "China (Ming)": {
+      "best_aic": "Weibull",
+      "best_bic": "Exponential",
+      "n": 17,
+      "w_daic": 0.0,
+      "w_aic": 134.1488373586092,
+      "ln_aic": 136.7464952530633,
+      "g_aic": 134.29320130622523,
+      "e_aic": 134.16134670674066
+    },
+    "China (Qing)": {
+      "best_aic": "Exponential",
+      "best_bic": "Exponential",
+      "n": 11,
+      "w_daic": 1.7096977998585459,
+      "w_aic": 91.913780770417,
+      "ln_aic": 92.08813740489563,
+      "g_aic": 91.85180695552917,
+      "e_aic": 90.20408297055846
+    },
+    "China (Tang)": {
+      "best_aic": "Exponential",
+      "best_bic": "Exponential",
+      "n": 22,
+      "w_daic": 1.4710693652593534,
+      "w_aic": 156.97331376088724,
+      "ln_aic": 160.71831477537285,
+      "g_aic": 157.2022390505743,
+      "e_aic": 155.50224439562788
+    },
+    "Denmark": {
+      "best_aic": "Weibull",
+      "best_bic": "Weibull",
+      "n": 49,
+      "w_daic": 0.0,
+      "w_aic": 379.1726582601558,
+      "ln_aic": 383.4012254798259,
+      "g_aic": 379.25956724479386,
+      "e_aic": 397.98150415926443
+    },
+    "Egypt (New Kingdom)": {
+      "best_aic": "Exponential",
+      "best_bic": "Exponential",
+      "n": 31,
+      "w_daic": 1.2583469321587586,
+      "w_aic": 252.96216718801017,
+      "ln_aic": 255.92101628569364,
+      "g_aic": 252.89370235768047,
+      "e_aic": 251.7038202558514
+    },
+    "England/Britain": {
+      "best_aic": "Gamma",
+      "best_bic": "Gamma",
+      "n": 40,
+      "w_daic": 0.4823257903139506,
+      "w_aic": 327.39244685371807,
+      "ln_aic": 329.0873899213423,
+      "g_aic": 326.9101210634041,
+      "e_aic": 329.64620868189655
+    },
+    "Ethiopia": {
+      "best_aic": "Exponential",
+      "best_bic": "Exponential",
+      "n": 27,
+      "w_daic": 1.1924848797021355,
+      "w_aic": 196.91670309383542,
+      "ln_aic": 198.23370935463936,
+      "g_aic": 196.8249883388321,
+      "e_aic": 195.7242182141333
+    },
+    "France": {
+      "best_aic": "Gamma",
+      "best_bic": "Exponential",
+      "n": 38,
+      "w_daic": 0.07860615638497848,
+      "w_aic": 314.84592683380146,
+      "ln_aic": 317.7754584667616,
+      "g_aic": 314.7673206774165,
+      "e_aic": 315.33496838313516
+    },
+    "Holy Roman Empire": {
+      "best_aic": "Exponential",
+      "best_bic": "Exponential",
+      "n": 43,
+      "w_daic": 0.44839989101774336,
+      "w_aic": 336.0145116504534,
+      "ln_aic": 341.21092950211255,
+      "g_aic": 336.25975760946875,
+      "e_aic": 335.56611175943567
+    },
+    "Inca Empire": {
+      "best_aic": "Weibull",
+      "best_bic": "Weibull",
+      "n": 12,
+      "w_daic": 0.0,
+      "w_aic": 101.40045306376398,
+      "ln_aic": 110.96001243683483,
+      "g_aic": 104.48430488206418,
+      "e_aic": 104.80194430413853
+    },
+    "Islamic Caliphate": {
+      "best_aic": "Exponential",
+      "best_bic": "Exponential",
+      "n": 55,
+      "w_daic": 1.9985249603803936,
+      "w_aic": 380.3722717024201,
+      "ln_aic": 385.5061006873049,
+      "g_aic": 380.3659334202369,
+      "e_aic": 378.3737467420397
+    },
+    "Japan (Emperors)": {
+      "best_aic": "Log-normal",
+      "best_bic": "Log-normal",
+      "n": 92,
+      "w_daic": 17.406873843068865,
+      "w_aic": 627.1668666625644,
+      "ln_aic": 609.7599928194956,
+      "g_aic": 622.8528221249313,
+      "e_aic": 629.5613138723181
+    },
+    "Khmer Empire": {
+      "best_aic": "Gamma",
+      "best_bic": "Gamma",
+      "n": 20,
+      "w_daic": 0.14402401630175632,
+      "w_aic": 159.1721304086376,
+      "ln_aic": 159.85651417278424,
+      "g_aic": 159.02810639233584,
+      "e_aic": 160.0921086250662
+    },
+    "Korea (Joseon)": {
+      "best_aic": "Weibull",
+      "best_bic": "Exponential",
+      "n": 28,
+      "w_daic": 0.0,
+      "w_aic": 217.89943942424426,
+      "ln_aic": 221.6443240222934,
+      "g_aic": 218.11849869284703,
+      "e_aic": 218.05421015796483
+    },
+    "Mamluk Sultanate": {
+      "best_aic": "Log-normal",
+      "best_bic": "Log-normal",
+      "n": 27,
+      "w_daic": 3.573787534719031,
+      "w_aic": 163.29183341765895,
+      "ln_aic": 159.71804588293992,
+      "g_aic": 163.90440856408625,
+      "e_aic": 162.62814604092526
+    },
+    "Mughal Empire": {
+      "best_aic": "Exponential",
+      "best_bic": "Exponential",
+      "n": 15,
+      "w_daic": 1.8949934284349155,
+      "w_aic": 116.5048147990628,
+      "ln_aic": 118.59990226647625,
+      "g_aic": 116.46215940774981,
+      "e_aic": 114.60982137062788
+    },
+    "Ottoman Empire": {
+      "best_aic": "Weibull",
+      "best_bic": "Exponential",
+      "n": 39,
+      "w_daic": 0.0,
+      "w_aic": 300.597669673028,
+      "ln_aic": 307.46467684961465,
+      "g_aic": 301.37027327294527,
+      "e_aic": 300.99064083638484
+    },
+    "Papacy (post-1000)": {
+      "best_aic": "Weibull",
+      "best_bic": "Exponential",
+      "n": 121,
+      "w_daic": 0.0,
+      "w_aic": 771.1571473197353,
+      "ln_aic": 786.2582815114578,
+      "g_aic": 771.6332913427646,
+      "e_aic": 773.2265716964425
+    },
+    "Persia/Iran": {
+      "best_aic": "Exponential",
+      "best_bic": "Exponential",
+      "n": 22,
+      "w_daic": 1.81181712487367,
+      "w_aic": 171.70177519783502,
+      "ln_aic": 176.5940322050619,
+      "g_aic": 171.813936079712,
+      "e_aic": 169.88995807296135
+    },
+    "Poland": {
+      "best_aic": "Weibull",
+      "best_bic": "Weibull",
+      "n": 32,
+      "w_daic": 0.0,
+      "w_aic": 255.69546394983405,
+      "ln_aic": 261.4608488868481,
+      "g_aic": 257.03089402403873,
+      "e_aic": 261.2292590875672
+    },
+    "Portugal": {
+      "best_aic": "Weibull",
+      "best_bic": "Exponential",
+      "n": 31,
+      "w_daic": 0.0,
+      "w_aic": 246.96076253732764,
+      "ln_aic": 250.02235896886722,
+      "g_aic": 247.3359153000455,
+      "e_aic": 247.59901240507884
+    },
+    "Roman Empire": {
+      "best_aic": "Log-normal",
+      "best_bic": "Log-normal",
+      "n": 55,
+      "w_daic": 3.4828659736870122,
+      "w_aic": 332.7619607021463,
+      "ln_aic": 329.2790947284593,
+      "g_aic": 333.3885376898085,
+      "e_aic": 332.3653161895516
+    },
+    "Russia": {
+      "best_aic": "Exponential",
+      "best_bic": "Exponential",
+      "n": 25,
+      "w_daic": 1.992073171851814,
+      "w_aic": 195.59388221601188,
+      "ln_aic": 198.9523381906266,
+      "g_aic": 195.59829936184005,
+      "e_aic": 193.60180904416006
+    },
+    "Scotland": {
+      "best_aic": "Weibull",
+      "best_bic": "Weibull",
+      "n": 40,
+      "w_daic": 0.0,
+      "w_aic": 301.94249802214426,
+      "ln_aic": 307.5456315012927,
+      "g_aic": 303.3835960287307,
+      "e_aic": 320.3479035442773
+    },
+    "Spain": {
+      "best_aic": "Weibull",
+      "best_bic": "Weibull",
+      "n": 18,
+      "w_daic": 0.0,
+      "w_aic": 149.18562312299366,
+      "ln_aic": 155.9838419390336,
+      "g_aic": 151.16495702265763,
+      "e_aic": 153.87952969525523
+    },
+    "Sweden": {
+      "best_aic": "Weibull",
+      "best_bic": "Weibull",
+      "n": 23,
+      "w_daic": 0.0,
+      "w_aic": 191.05398229534728,
+      "ln_aic": 199.02823381543186,
+      "g_aic": 193.49881387768113,
+      "e_aic": 199.53436205705938
+    },
+    "Thailand (Chakri)": {
+      "best_aic": "Log-normal",
+      "best_bic": "Log-normal",
+      "n": 10,
+      "w_daic": 1.967053886245111,
+      "w_aic": 86.06397143315971,
+      "ln_aic": 84.0969175469146,
+      "g_aic": 85.24921255344607,
+      "e_aic": 86.45735692275478
+    },
+    "USA (Presidents)": {
+      "best_aic": "Log-normal",
+      "best_bic": "Log-normal",
+      "n": 42,
+      "w_daic": 9.634050368956196,
+      "w_aic": 184.11855848074413,
+      "ln_aic": 174.48450811178793,
+      "g_aic": 177.71861843510933,
+      "e_aic": 228.8344140137455
+    },
+    "Venice (Doges)": {
+      "best_aic": "Weibull",
+      "best_bic": "Weibull",
+      "n": 83,
+      "w_daic": 0.0,
+      "w_aic": 495.73561561239535,
+      "ln_aic": 503.6348414501044,
+      "g_aic": 496.41807060512775,
+      "e_aic": 521.2388372920117
+    }
+  },
+  "papacy": {
+    "pre1000": {
+      "k": 1.0923368135541622,
+      "lambda": 7.7245315342600485,
+      "n": 140,
+      "ci": [
+        0.9772470581764949,
+        1.2503319542318307
+      ],
+      "ks_p": 0.11111386628199874
+    },
+    "post1000": {
+      "k": 1.1628612584411395,
+      "lambda": 9.386153497300832,
+      "n": 121,
+      "ci": [
+        1.0378361635404605,
+        1.3254051208318238
+      ],
+      "ks_p": 0.41947029608148123
+    },
+    "ks_2samp_p": 0.5629126696623593,
+    "mw_p": 0.13466798927508297
+  },
+  "roman_saleh": {
+    "single_k": 0.8799927127520906,
+    "single_aic": 332.7619607021463,
+    "single_bic": 336.7766270726113,
+    "mix_k1": 1.4635677489948709,
+    "mix_l1": 2.211965647163456,
+    "mix_k2": 1.7881756334208276,
+    "mix_l2": 16.275572229116108,
+    "mix_pi": 0.5659362653017446,
+    "mix_aic": 327.7398538889694,
+    "mix_bic": 337.77651981513173
+  },
+  "usa_sensitivity": {
+    "usa_k": 2.7209034971603927,
+    "with": 1.1167788711947715,
+    "without": 1.1028723143505526,
+    "hereditary": 1.1371562754820441,
+    "delta": 0.013906556844218931
+  },
+  "sample_size": {
+    "n_crossing": 14,
+    "crossing": [
+      "Aztec Empire",
+      "China (Qing)",
+      "Inca Empire",
+      "Mughal Empire",
+      "China (Tang)",
+      "Persia/Iran",
+      "Russia",
+      "Ethiopia",
+      "Mamluk Sultanate",
+      "Egypt (New Kingdom)",
+      "Holy Roman Empire",
+      "Islamic Caliphate",
+      "Roman Empire",
+      "Byzantine Empire"
+    ]
+  }
+}
