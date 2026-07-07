@@ -735,21 +735,22 @@ def generate_v4():
     # =========================================================================
     # INSERT: Limitations additions (parliamentary democracies, sample size)
     # =========================================================================
-    if 'future_work' in para_map:
-        p = doc.paragraphs[para_map['future_work']]
-        # Insert new limitation paragraphs before future work
-
-        parl_text = (
-            'Sixth, the dataset does not include contemporary parliamentary democracies '
-            '(e.g., Western European prime ministers). Prime ministerial tenures in parliamentary '
-            'systems involve fundamentally different termination mechanisms - votes of confidence, '
-            'party leadership contests, and fixed electoral cycles - that merit separate analytical '
-            'treatment. Their absence creates an asymmetry in the coverage of modern governance '
-            'systems that future work should address.'
-        )
-        parl_body = add_paragraph_after(doc, doc.paragraphs[para_map['future_work'] - 1], None)
-        replace_paragraph_text_fully(parl_body, parl_text)
-        print("Inserted: Parliamentary democracies limitation")
+    parl_text = (
+        'Sixth, the dataset does not include contemporary parliamentary democracies '
+        '(e.g., Western European prime ministers). Prime ministerial tenures in parliamentary '
+        'systems involve fundamentally different termination mechanisms - votes of confidence, '
+        'party leadership contests, and fixed electoral cycles - that merit separate analytical '
+        'treatment. Their absence creates an asymmetry in the coverage of modern governance '
+        'systems that future work should address.'
+    )
+    # Re-search by text to avoid stale index after prior insertions
+    for i, p in enumerate(doc.paragraphs):
+        if p.text.strip().startswith('Future work could extend this analysis'):
+            ref = doc.paragraphs[i - 1]
+            parl_body = add_paragraph_after(doc, ref, None)
+            replace_paragraph_text_fully(parl_body, parl_text)
+            print("Inserted: Parliamentary democracies limitation")
+            break
 
     # =========================================================================
     # INSERT: Reference for Burnham and Anderson

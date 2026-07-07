@@ -424,9 +424,12 @@ def rebuild_paragraph_with_superscript(paragraph, text):
             run.font.superscript = True
         else:
             run.text = part
-            # Preserve italic for figure captions
-            if first_run_font and first_run_font['italic']:
-                run.font.italic = True
+            # Preserve bold and italic from original formatting
+            if first_run_font:
+                if first_run_font['bold']:
+                    run.font.bold = True
+                if first_run_font['italic']:
+                    run.font.italic = True
 
 
 def reorder_references(doc):

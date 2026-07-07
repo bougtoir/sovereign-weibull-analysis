@@ -498,17 +498,21 @@ def generate_ja_v4():
     # =========================================================================
     # INSERT: Parliamentary democracies limitation
     # =========================================================================
-    if 'future_work' in para_map:
-        ref = doc.paragraphs[para_map['future_work'] - 1]
-        parl_text = (
-            '第六に、データセットには現代の議会制民主主義（例：西欧の首相）が含まれていない。'
-            '議会制における首相の在任期間は根本的に異なる終了メカニズム（不信任投票、'
-            '党首選、固定選挙周期）を伴い、別個の分析的扱いを要する。'
-            'この不在は現代の統治システムの網羅性に非対称性を生じさせており、将来の研究で対処すべきである。'
-        )
-        parl_body = add_paragraph_after(doc, ref, None)
-        replace_paragraph_text_fully(parl_body, parl_text)
-        print("Inserted: Parliamentary democracies limitation")
+    parl_text = (
+        '第六に、データセットには現代の議会制民主主義（例：西欧の首相）が含まれていない。'
+        '議会制における首相の在任期間は根本的に異なる終了メカニズム（不信任投票、'
+        '党首選、固定選挙周期）を伴い、別個の分析的扱いを要する。'
+        'この不在は現代の統治システムの網羅性に非対称性を生じさせており、将来の研究で対処すべきである。'
+    )
+    # Re-search by text to avoid stale index after prior insertions
+    for i, p in enumerate(doc.paragraphs):
+        txt = p.text.strip()
+        if txt.startswith('将来の研究') or txt.startswith('今後の研究'):
+            ref = doc.paragraphs[i - 1]
+            parl_body = add_paragraph_after(doc, ref, None)
+            replace_paragraph_text_fully(parl_body, parl_text)
+            print("Inserted: Parliamentary democracies limitation")
+            break
 
     # =========================================================================
     # POST-PROCESSING

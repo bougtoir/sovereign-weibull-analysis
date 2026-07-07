@@ -96,6 +96,8 @@ def rebuild_paragraph_with_superscript(paragraph, text):
         fr = paragraph.runs[0]
         first_run_font = {
             'size': fr.font.size,
+            'bold': fr.font.bold,
+            'italic': fr.font.italic,
             'name': fr.font.name,
         }
 
@@ -121,6 +123,11 @@ def rebuild_paragraph_with_superscript(paragraph, text):
             run.font.superscript = True
         else:
             run.text = part
+            if first_run_font:
+                if first_run_font['bold']:
+                    run.font.bold = True
+                if first_run_font['italic']:
+                    run.font.italic = True
 
 
 def rename_ja_figures(doc):
