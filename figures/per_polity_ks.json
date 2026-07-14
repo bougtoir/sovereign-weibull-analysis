@@ -1,0 +1,188 @@
+{
+  "Aztec Empire": {
+    "ks_stat": 0.1726,
+    "ks_p": 0.9118,
+    "n": 9,
+    "k": 1.461
+  },
+  "Byzantine Empire": {
+    "ks_stat": 0.1406,
+    "ks_p": 0.1094,
+    "n": 71,
+    "k": 1.113
+  },
+  "China (Ming)": {
+    "ks_stat": 0.0916,
+    "ks_p": 0.9962,
+    "n": 17,
+    "k": 1.338
+  },
+  "China (Qing)": {
+    "ks_stat": 0.1109,
+    "ks_p": 0.9967,
+    "n": 11,
+    "k": 1.14
+  },
+  "China (Tang)": {
+    "ks_stat": 0.1455,
+    "ks_p": 0.6874,
+    "n": 22,
+    "k": 1.14
+  },
+  "Denmark": {
+    "ks_stat": 0.0672,
+    "ks_p": 0.969,
+    "n": 49,
+    "k": 1.788
+  },
+  "Egypt (New Kingdom)": {
+    "ks_stat": 0.1117,
+    "ks_p": 0.7935,
+    "n": 31,
+    "k": 1.132
+  },
+  "England/Britain": {
+    "ks_stat": 0.1051,
+    "ks_p": 0.7291,
+    "n": 40,
+    "k": 1.308
+  },
+  "Ethiopia": {
+    "ks_stat": 0.0815,
+    "ks_p": 0.9873,
+    "n": 27,
+    "k": 1.15
+  },
+  "France": {
+    "ks_stat": 0.1007,
+    "ks_p": 0.7996,
+    "n": 38,
+    "k": 1.235
+  },
+  "Holy Roman Empire": {
+    "ks_stat": 0.0787,
+    "ks_p": 0.9336,
+    "n": 43,
+    "k": 1.171
+  },
+  "Inca Empire": {
+    "ks_stat": 0.3195,
+    "ks_p": 0.1373,
+    "n": 12,
+    "k": 2.026
+  },
+  "Islamic Caliphate": {
+    "ks_stat": 0.1342,
+    "ks_p": 0.2518,
+    "n": 55,
+    "k": 1.004
+  },
+  "Japan (Emperors)": {
+    "ks_stat": 0.115,
+    "ks_p": 0.1619,
+    "n": 92,
+    "k": 1.18
+  },
+  "Khmer Empire": {
+    "ks_stat": 0.1039,
+    "ks_p": 0.9668,
+    "n": 20,
+    "k": 1.381
+  },
+  "Korea (Joseon)": {
+    "ks_stat": 0.0838,
+    "ks_p": 0.9799,
+    "n": 28,
+    "k": 1.262
+  },
+  "Mamluk Sultanate": {
+    "ks_stat": 0.1878,
+    "ks_p": 0.2624,
+    "n": 27,
+    "k": 0.851
+  },
+  "Mughal Empire": {
+    "ks_stat": 0.1249,
+    "ks_p": 0.9504,
+    "n": 15,
+    "k": 0.936
+  },
+  "Ottoman Empire": {
+    "ks_stat": 0.1399,
+    "ks_p": 0.3936,
+    "n": 39,
+    "k": 1.24
+  },
+  "Papacy (post-1000)": {
+    "ks_stat": 0.0787,
+    "ks_p": 0.4195,
+    "n": 121,
+    "k": 1.163
+  },
+  "Persia/Iran": {
+    "ks_stat": 0.1446,
+    "ks_p": 0.6945,
+    "n": 22,
+    "k": 1.079
+  },
+  "Poland": {
+    "ks_stat": 0.1443,
+    "ks_p": 0.4741,
+    "n": 32,
+    "k": 1.552
+  },
+  "Portugal": {
+    "ks_stat": 0.1399,
+    "ks_p": 0.5327,
+    "n": 31,
+    "k": 1.285
+  },
+  "Roman Empire": {
+    "ks_stat": 0.1335,
+    "ks_p": 0.2573,
+    "n": 55,
+    "k": 0.88
+  },
+  "Russia": {
+    "ks_stat": 0.1708,
+    "ks_p": 0.4128,
+    "n": 25,
+    "k": 1.015
+  },
+  "Scotland": {
+    "ks_stat": 0.0872,
+    "ks_p": 0.8955,
+    "n": 40,
+    "k": 1.937
+  },
+  "Spain": {
+    "ks_stat": 0.1667,
+    "ks_p": 0.6397,
+    "n": 18,
+    "k": 1.791
+  },
+  "Sweden": {
+    "ks_stat": 0.1662,
+    "ks_p": 0.4968,
+    "n": 23,
+    "k": 1.897
+  },
+  "Thailand (Chakri)": {
+    "ks_stat": 0.1973,
+    "ks_p": 0.7627,
+    "n": 10,
+    "k": 1.492
+  },
+  "USA (Presidents)": {
+    "ks_stat": 0.3549,
+    "ks_p": 0.0,
+    "n": 42,
+    "k": 2.721
+  },
+  "Venice (Doges)": {
+    "ks_stat": 0.0815,
+    "ks_p": 0.6099,
+    "n": 83,
+    "k": 1.665
+  }
+}
